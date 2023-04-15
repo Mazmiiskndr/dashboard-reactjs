@@ -22,11 +22,14 @@ import {
   Editor,
 } from "pages/index";
 
+import { useStateContext } from "contexts/ContextProvider";
+
 import "App.css";
 
 function App() {
   // Variable to store the active status of the menu
-  const activeMenu = true;
+  const { activeMenu } = useStateContext();
+
 
   return (
     <div>
