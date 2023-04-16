@@ -17,7 +17,7 @@ export default function Sidebar() {
     if(activeMenu && screenSize < 900) setActiveMenu(false)
   }
   const activeLink =
-    "flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-white text-md m-2";
+    "flex items-center gap-5 pl-4 pt-3 pb-2.5 bg-cyan-200 rounded-lg text-md m-2";
   const normalLink =
     "flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-md text-grap-700 dark:text-gray-200 dark:hover:text-black hover:bg-slate-200 m-2";
 
